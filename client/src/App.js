@@ -2,11 +2,7 @@ import React, { Fragment } from "react";
 import "./App.css";
 
 const App = () => {
-  return (
-    <Fragment>
-      <h1>Biblioteca</h1>
-    </Fragment>
-  );
+  return <Fragment>Biblioteca</Fragment>;
 };
 
 export default App;

@@ -1,0 +1,7 @@
+{
+  "host": "localhost",
+  "user": "root",
+  "dbName": "BibliotecaV1",
+  "dbPassword": "myDB@123",
+  "jwtSecret": "myjwtsecret"
+}

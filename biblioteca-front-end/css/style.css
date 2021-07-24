@@ -1,0 +1,99 @@
+/* COMMON CSS */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: auto;
+}
+
+.title {
+  color: #4bcffa;
+  cursor: pointer;
+}
+.title:hover {
+  color: #ffffff;
+}
+
+.col-btn:hover {
+  cursor: pointer;
+  background-color: #86ccfa;
+  color: rgb(0, 0, 0);
+}
+
+/* NAVBAR */
+#header {
+  border-bottom: 4px solid #86ccfa;
+  background-color: #1b242e;
+}
+
+#navbar li {
+  display: inline;
+  list-style: none;
+  margin-right: 15px;
+}
+
+#navbar a {
+  color: #86ccfa;
+  text-transform: uppercase;
+}
+
+#navbar a:hover {
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
+
+#navbar .active {
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
+
+/* LANDING */
+#landing {
+  background: url("../img/library_showcase.jpeg") no-repeat center center;
+  height: 920px;
+}
+#landing .row {
+  height: 920px;
+}
+.showcase {
+  background: #333;
+  color: aliceblue;
+  border-radius: 40px;
+  opacity: 0.9;
+}
+
+/* BOOK-NAV */
+#book-nav {
+  background-color: #1b242e;
+  color: #86ccfa;
+  text-transform: uppercase;
+}
+.book-nav-active {
+  background-color: #0fbcf9;
+  color: rgb(0, 0, 0);
+}
+
+/* BOOK_LIST */
+#book-list .row {
+  /* border: 2px solid #0099ff; */
+  border: 2px solid #4bcffa;
+  margin: 5px;
+}
+
+#book-list .col-btn {
+  /* background-color: #0099ff; */
+  background-color: #0fbcf9;
+  padding: 10px;
+}
+
+#book-list .col-btn:hover {
+  background-color: #4bcffa;
+}

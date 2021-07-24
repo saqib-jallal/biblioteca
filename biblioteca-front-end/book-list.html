@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/flexboxgrid.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Biblioteca</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header id="header">
+      <div class="container">
+        <div class="row center-xs end-sm end-md end-lg end-lg middle-xs middle-sm middle-md middle-lg">
+          <a class="col-xs-12 col-sm-4 col-md-2 col-lg-2" href="/index.html">
+            <h1 class="title">Biblioteca</h1>
+          </a>
+          <nav id="navbar" class="col-xs-12 col-sm-8 col-md-10 col-lg-10">
+            <ul>
+              <li>
+                <a href="/signin.html">SignIn</a>
+              </li>
+              <li>
+                <a href="signup.html">SignUp</a>
+              </li>
+              <li>
+                <a href="/front-end/book-list.html">Books</a>
+              </li>
+              <li>
+                <a href="#">SignOut</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- BOOK NAVBAR -->
+    <section id="book-nav">
+      <div class="container">
+        <div class="row center-lg center-md center-sm center-xs middle-lg middle-md middle-sm middle-xs">
+          <a class="book-nav-active col-btn col-xs-12 col-sm-4 col-md-4 col-lg-4"><h4>Available Books</h4></a>
+          <a class="col-btn col-xs-12 col-sm-4 col-md-4 col-lg-4"><h4>Checked-out Books</h4></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOOK-LIST PAGE -->
+    <section id="book-list">
+      <div class="container">
+        <div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg">
+          <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+            <h3>Book_Name</h3>
+            <p>author_name</p>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            <p>year_published</p>
+            <p>available_copies/number_of_books</p>
+          </div>
+          <div class="col-btn col-xs-12 col-sm-12 col-md-12 col-lg-12">CHECK-OUT/RETURN</div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

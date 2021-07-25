@@ -1,0 +1,27 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: auto;
+}
+
+.title {
+  color: #4bcffa;
+  cursor: pointer;
+}
+.title:hover {
+  color: #ffffff;
+}
+
+.col-btn:hover {
+  cursor: pointer;
+  background-color: #86ccfa;
+  color: rgb(0, 0, 0);
+}

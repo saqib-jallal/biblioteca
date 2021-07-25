@@ -1,0 +1,25 @@
+#header {
+  border-bottom: 4px solid #86ccfa;
+  background-color: #1b242e;
+}
+
+#navbar li {
+  display: inline;
+  list-style: none;
+  margin-right: 15px;
+}
+
+#navbar a {
+  color: #86ccfa;
+  text-transform: uppercase;
+}
+
+#navbar a:hover {
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
+
+#navbar .active {
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+}

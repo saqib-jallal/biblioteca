@@ -1,0 +1,13 @@
+#landing {
+  background: url("../../img/library_showcase.jpeg") no-repeat center center;
+  height: 920px;
+}
+#landing .row {
+  height: 920px;
+}
+.showcase {
+  background: #333;
+  color: aliceblue;
+  border-radius: 40px;
+  opacity: 0.9;
+}
